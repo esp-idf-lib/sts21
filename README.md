@@ -11,7 +11,7 @@ Driver for STS21 temperature sensor.
 ## Installation
 
 ```sh
-idf.py add-dependency "esp-idf-lib/sts21^1.0.0
+idf.py add-dependency esp-idf-lib/sts21^1.0.0
 ```
 
 ## Support
