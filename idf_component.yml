@@ -1,5 +1,5 @@
 ---
-version: 1.0.3
+version: 1.0.4
 description: Driver for STS21 temperature sensor
 license: BSD-3
 targets:
