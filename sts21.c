@@ -56,7 +56,8 @@ static const char *TAG = "sts21";
 #define CHECK(x) do { esp_err_t __; if ((__ = x) != ESP_OK) return __; } while (0)
 #define CHECK_ARG(VAL) do { if (!(VAL)) return ESP_ERR_INVALID_ARG; } while (0)
 
-static const uint32_t measurement_time_us[] = {
+static const uint32_t measurement_time_us[] =
+{
     [STS21_RESOLUTION_14] = 85000,
     [STS21_RESOLUTION_13] = 43000,
     [STS21_RESOLUTION_12] = 22000,

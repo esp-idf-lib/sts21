@@ -49,7 +49,8 @@ extern "C" {
 /**
  * Measurement resolutions
  */
-typedef enum {
+typedef enum
+{
     STS21_RESOLUTION_14 = 0, /**< 14 bits, <= 85 ms, default */
     STS21_RESOLUTION_13,     /**< 13 bits, <= 43 ms */
     STS21_RESOLUTION_12,     /**< 12 bits, <= 22 ms */
